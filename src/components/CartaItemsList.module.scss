@@ -1,0 +1,14 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+
+.carta-items-list-container {
+  @include make-container(2rem);
+  @include media-breakpoint-up(lg) {
+    max-width: 90vw;
+  }
+}
+
+.carta-items-list-row {
+  @include make-row(2rem);
+}
